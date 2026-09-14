@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Large raw data files (downloaded automatically via data/download_data.py)
+data/raw/*.csv
+data/raw/*.zip
+data/raw/*.tar.gz
+
+# SQLite temporary files
+*.db-journal
+*.db-wal
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Streamlit local state
+.streamlit/secrets.toml
+
+# Testing & build
+.pytest_cache/
+.coverage
+htmlcov/
