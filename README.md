@@ -6,10 +6,7 @@
 [![Power BI](https://img.shields.io/badge/Power%20BI-Star--Schema%20%26%20DAX-F2C811.svg)](https://powerbi.microsoft.com/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-> **Executive CV Alignment Statement:**  
-> *"Built a Business Intelligence platform using SQL, Python and Power BI to analyze 12 core lending-operations KPIs (credit risk, funding, collections and capacity metrics), identify performance trends and perform root-cause analysis. Developed predictive analytics, interactive dashboards and 5+ what-if scenario analyses to uncover operational bottlenecks, evaluate business trade-offs and generate data-driven recommendations for performance improvement."*
 
----
 
 ## 📌 Executive Overview
 
