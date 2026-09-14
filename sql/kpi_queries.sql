@@ -34,7 +34,7 @@ WITH MonthlyBase AS (
         ) AS collection_cost_ratio,
         -- KPI 11: Verification Backlog Share (Capacity Proxy %)
         ROUND(
-            SUM(CASE WHEN b.verification_status = 'Not Verified' THEN 1 ELSE 0 END) * 100.0 / COUNT(l.loan_id),
+            SUM(CASE WHEN LOWER(b.verification_status) = 'not verified' THEN 1 ELSE 0 END) * 100.0 / COUNT(l.loan_id),
             2
         ) AS unverified_backlog_share
     FROM loans l
@@ -154,7 +154,7 @@ WITH StateVolume AS (
         ROUND(SUM(l.is_default) * 100.0 / COUNT(l.loan_id), 2) AS state_default_rate,
         -- Backlog Proxy: % Not Verified
         ROUND(
-            SUM(CASE WHEN b.verification_status = 'Not Verified' THEN 1 ELSE 0 END) * 100.0 / COUNT(l.loan_id),
+            SUM(CASE WHEN LOWER(b.verification_status) = 'not verified' THEN 1 ELSE 0 END) * 100.0 / COUNT(l.loan_id),
             2
         ) AS unverified_rate_pct,
         -- Funding fulfillment rate
