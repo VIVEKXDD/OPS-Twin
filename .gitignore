@@ -15,6 +15,8 @@ data/raw/*.zip
 data/raw/*.tar.gz
 data/processed/*.db
 *.db
+powerbi/export/fact_loans.csv
+powerbi/export/dim_borrower.csv
 
 # SQLite temporary files
 *.db-journal

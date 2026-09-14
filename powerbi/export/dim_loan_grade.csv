@@ -1,0 +1,8 @@
+grade,grade_name,risk_tier,subprime_flag
+A,Grade A - Prime Super,Prime,0
+B,Grade B - Prime Standard,Prime,0
+C,Grade C - Near Prime,Near-Prime,0
+D,Grade D - Core Subprime,Subprime,1
+E,Grade E - Moderate Subprime,Subprime,1
+F,Grade F - Speculative Subprime,Subprime,1
+G,Grade G - Deep Subprime,Subprime,1
