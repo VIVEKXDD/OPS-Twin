@@ -13,6 +13,8 @@ ENV/
 data/raw/*.csv
 data/raw/*.zip
 data/raw/*.tar.gz
+data/processed/*.db
+*.db
 
 # SQLite temporary files
 *.db-journal
